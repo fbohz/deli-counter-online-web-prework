@@ -16,7 +16,7 @@ def line(katz_deli)
     #puts newArray
     #outArray = newArray.to_s
     end
-   puts  "The line is currently: " + newArray.join(', ') 
+   puts  "The line is currently: " + newArray.join(' ') 
     
     end
 
