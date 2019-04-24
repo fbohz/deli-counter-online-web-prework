@@ -21,7 +21,7 @@ def line(katz_deli)
     end
 
 end   
-end
+
 
 def take_a_number(katz_deli, name) #ok
   count = katz_deli.length + 1 
