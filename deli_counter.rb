@@ -8,8 +8,8 @@ def line(katz_deli)
 
     counter = 0   
     katz_deli.each do |x|
-    counter += 1
-    puts  "The line is currently:" + "#{counter}. #{katz_deli[x]}"
+    #counter += 1
+    puts  "The line is currently:" + "#{counter + 1}. #{x[counter]}"
     
     
     end
