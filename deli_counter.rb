@@ -15,7 +15,7 @@ def line(katz_deli)
     newArray << "#{counter}. #{x}"
   
     end
-   puts  "The line is currently: " + newArray.join(' ') 
+   puts  "The line is currently: " + newArray.join(" ") 
     
     end
 
