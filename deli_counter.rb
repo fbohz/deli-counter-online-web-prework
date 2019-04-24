@@ -6,11 +6,17 @@ def line(katz_deli)
     puts "The line is currently empty." #ok
   else 
 
+  
+    newArray = []
     counter = 0   
     katz_deli.each do |x|
     counter += 1
-    puts  "The line is currently: " + "#{counter}. #{x}"
     
+    newArray << "#{counter}. #{x}"
+    #puts newArray
+    #outArray = newArray.to_s
+    end
+   puts  "The line is currently: " + newArray.to_s
     
     end
 
