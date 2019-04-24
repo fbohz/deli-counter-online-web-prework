@@ -13,8 +13,7 @@ def line(katz_deli)
     counter += 1
     
     newArray << "#{counter}. #{x}"
-    #puts newArray
-    #outArray = newArray.to_s
+  
     end
    puts  "The line is currently: " + newArray.join(' ') 
     
